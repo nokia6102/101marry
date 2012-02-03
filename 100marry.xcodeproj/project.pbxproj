@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB50706F143AD2FD00DEC4A7 /* MyMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = DB50706D143AD2FD00DEC4A7 /* MyMoney.m */; };
+		DB507070143AD2FD00DEC4A7 /* MyMoney.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB50706E143AD2FD00DEC4A7 /* MyMoney.xib */; };
+		DB71EAC91436338D0067D179 /* elevator.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EAC81436338D0067D179 /* elevator.png */; };
+		DB71EACC143633D10067D179 /* favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EACB143633D10067D179 /* favourite.png */; };
+		DB71EACE143634040067D179 /* idea-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EACD143634040067D179 /* idea-alt.png */; };
+		DB71EAD0143634410067D179 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EACF143634410067D179 /* no.png */; };
+		DB71EAD21436346C0067D179 /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EAD11436346C0067D179 /* ruby.png */; };
+		DB71EAD4143634750067D179 /* script.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EAD3143634750067D179 /* script.png */; };
+		DB71EAD6143634F20067D179 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = DB71EAD5143634F20067D179 /* calculator.png */; };
+		DB82A30C14322243004B0D6A /* View7.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB82A30B14322243004B0D6A /* View7.xib */; };
+		DB8E809E1439B1BD00EA093A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8E809D1439B1BD00EA093A /* Icon.png */; };
+		DB8E80A11439B1C100EA093A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8E80A01439B1C100EA093A /* Icon@2x.png */; };
+		DBDAC4F6142F82FF006EDADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC4F5142F82FF006EDADB /* UIKit.framework */; };
+		DBDAC4F8142F82FF006EDADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC4F7142F82FF006EDADB /* Foundation.framework */; };
+		DBDAC4FA142F82FF006EDADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC4F9142F82FF006EDADB /* CoreGraphics.framework */; };
+		DBDAC500142F82FF006EDADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC4FE142F82FF006EDADB /* InfoPlist.strings */; };
+		DBDAC502142F82FF006EDADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC501142F82FF006EDADB /* main.m */; };
+		DBDAC506142F82FF006EDADB /* _00marryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC505142F82FF006EDADB /* _00marryAppDelegate.m */; };
+		DBDAC509142F82FF006EDADB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC507142F82FF006EDADB /* MainWindow.xib */; };
+		DBDAC50C142F82FF006EDADB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC50B142F82FF006EDADB /* FirstViewController.m */; };
+		DBDAC50F142F82FF006EDADB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC50E142F82FF006EDADB /* SecondViewController.m */; };
+		DBDAC512142F82FF006EDADB /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC510142F82FF006EDADB /* FirstView.xib */; };
+		DBDAC515142F82FF006EDADB /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC513142F82FF006EDADB /* SecondView.xib */; };
+		DBDAC51D142F82FF006EDADB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC51C142F82FF006EDADB /* SenTestingKit.framework */; };
+		DBDAC51E142F82FF006EDADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC4F5142F82FF006EDADB /* UIKit.framework */; };
+		DBDAC51F142F82FF006EDADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC4F7142F82FF006EDADB /* Foundation.framework */; };
+		DBDAC520142F82FF006EDADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC4F9142F82FF006EDADB /* CoreGraphics.framework */; };
+		DBDAC528142F82FF006EDADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC526142F82FF006EDADB /* InfoPlist.strings */; };
+		DBDAC52A142F82FF006EDADB /* _00marryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC529142F82FF006EDADB /* _00marryTests.h */; };
+		DBDAC52C142F82FF006EDADB /* _00marryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC52B142F82FF006EDADB /* _00marryTests.m */; };
+		DBE2F90814306F3400751132 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE2F90714306F3400751132 /* ThirdView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBDAC521142F82FF006EDADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBDAC4E8142F82FF006EDADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBDAC4F0142F82FF006EDADB;
+			remoteInfo = 100marry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB50706C143AD2FD00DEC4A7 /* MyMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMoney.h; sourceTree = "<group>"; };
+		DB50706D143AD2FD00DEC4A7 /* MyMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMoney.m; sourceTree = "<group>"; };
+		DB50706E143AD2FD00DEC4A7 /* MyMoney.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMoney.xib; sourceTree = "<group>"; };
+		DB71EAC81436338D0067D179 /* elevator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elevator.png; sourceTree = "<group>"; };
+		DB71EACB143633D10067D179 /* favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourite.png; sourceTree = "<group>"; };
+		DB71EACD143634040067D179 /* idea-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idea-alt.png"; sourceTree = "<group>"; };
+		DB71EACF143634410067D179 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		DB71EAD11436346C0067D179 /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = "<group>"; };
+		DB71EAD3143634750067D179 /* script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = script.png; sourceTree = "<group>"; };
+		DB71EAD5143634F20067D179 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		DB82A30B14322243004B0D6A /* View7.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View7.xib; sourceTree = "<group>"; };
+		DB8E809D1439B1BD00EA093A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DB8E80A01439B1C100EA093A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DBDAC4F1142F82FF006EDADB /* 100marry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100marry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAC4F5142F82FF006EDADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBDAC4F7142F82FF006EDADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBDAC4F9142F82FF006EDADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBDAC4FD142F82FF006EDADB /* 100marry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "100marry-Info.plist"; sourceTree = "<group>"; };
+		DBDAC4FF142F82FF006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDAC501142F82FF006EDADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBDAC503142F82FF006EDADB /* 100marry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "100marry-Prefix.pch"; sourceTree = "<group>"; };
+		DBDAC504142F82FF006EDADB /* _00marryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _00marryAppDelegate.h; sourceTree = "<group>"; };
+		DBDAC505142F82FF006EDADB /* _00marryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00marryAppDelegate.m; sourceTree = "<group>"; };
+		DBDAC508142F82FF006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DBDAC50A142F82FF006EDADB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DBDAC50B142F82FF006EDADB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DBDAC50D142F82FF006EDADB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DBDAC50E142F82FF006EDADB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DBDAC511142F82FF006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		DBDAC514142F82FF006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		DBDAC51B142F82FF006EDADB /* 100marryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 100marryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAC51C142F82FF006EDADB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBDAC525142F82FF006EDADB /* 100marryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "100marryTests-Info.plist"; sourceTree = "<group>"; };
+		DBDAC527142F82FF006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDAC529142F82FF006EDADB /* _00marryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _00marryTests.h; sourceTree = "<group>"; };
+		DBDAC52B142F82FF006EDADB /* _00marryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00marryTests.m; sourceTree = "<group>"; };
+		DBE2F90714306F3400751132 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDAC4EE142F82FF006EDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC4F6142F82FF006EDADB /* UIKit.framework in Frameworks */,
+				DBDAC4F8142F82FF006EDADB /* Foundation.framework in Frameworks */,
+				DBDAC4FA142F82FF006EDADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC517142F82FF006EDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC51D142F82FF006EDADB /* SenTestingKit.framework in Frameworks */,
+				DBDAC51E142F82FF006EDADB /* UIKit.framework in Frameworks */,
+				DBDAC51F142F82FF006EDADB /* Foundation.framework in Frameworks */,
+				DBDAC520142F82FF006EDADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDAC4E6142F82FF006EDADB = {
+			isa = PBXGroup;
+			children = (
+				DB8E80A01439B1C100EA093A /* Icon@2x.png */,
+				DB8E809D1439B1BD00EA093A /* Icon.png */,
+				DBDAC4FB142F82FF006EDADB /* 100marry */,
+				DBDAC523142F82FF006EDADB /* 100marryTests */,
+				DBDAC4F4142F82FF006EDADB /* Frameworks */,
+				DBDAC4F2142F82FF006EDADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDAC4F2142F82FF006EDADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC4F1142F82FF006EDADB /* 100marry.app */,
+				DBDAC51B142F82FF006EDADB /* 100marryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDAC4F4142F82FF006EDADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC4F5142F82FF006EDADB /* UIKit.framework */,
+				DBDAC4F7142F82FF006EDADB /* Foundation.framework */,
+				DBDAC4F9142F82FF006EDADB /* CoreGraphics.framework */,
+				DBDAC51C142F82FF006EDADB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBDAC4FB142F82FF006EDADB /* 100marry */ = {
+			isa = PBXGroup;
+			children = (
+				DB71EAD5143634F20067D179 /* calculator.png */,
+				DB71EAD3143634750067D179 /* script.png */,
+				DB71EAD11436346C0067D179 /* ruby.png */,
+				DB71EACD143634040067D179 /* idea-alt.png */,
+				DB71EACF143634410067D179 /* no.png */,
+				DB71EACB143633D10067D179 /* favourite.png */,
+				DB71EAC81436338D0067D179 /* elevator.png */,
+				DBDAC504142F82FF006EDADB /* _00marryAppDelegate.h */,
+				DBDAC505142F82FF006EDADB /* _00marryAppDelegate.m */,
+				DBDAC507142F82FF006EDADB /* MainWindow.xib */,
+				DBDAC50A142F82FF006EDADB /* FirstViewController.h */,
+				DBDAC50B142F82FF006EDADB /* FirstViewController.m */,
+				DBDAC50D142F82FF006EDADB /* SecondViewController.h */,
+				DBDAC50E142F82FF006EDADB /* SecondViewController.m */,
+				DBDAC510142F82FF006EDADB /* FirstView.xib */,
+				DBDAC513142F82FF006EDADB /* SecondView.xib */,
+				DBE2F90714306F3400751132 /* ThirdView.xib */,
+				DB82A30B14322243004B0D6A /* View7.xib */,
+				DBDAC4FC142F82FF006EDADB /* Supporting Files */,
+				DB50706C143AD2FD00DEC4A7 /* MyMoney.h */,
+				DB50706D143AD2FD00DEC4A7 /* MyMoney.m */,
+				DB50706E143AD2FD00DEC4A7 /* MyMoney.xib */,
+			);
+			path = 100marry;
+			sourceTree = "<group>";
+		};
+		DBDAC4FC142F82FF006EDADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC4FD142F82FF006EDADB /* 100marry-Info.plist */,
+				DBDAC4FE142F82FF006EDADB /* InfoPlist.strings */,
+				DBDAC501142F82FF006EDADB /* main.m */,
+				DBDAC503142F82FF006EDADB /* 100marry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBDAC523142F82FF006EDADB /* 100marryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC529142F82FF006EDADB /* _00marryTests.h */,
+				DBDAC52B142F82FF006EDADB /* _00marryTests.m */,
+				DBDAC524142F82FF006EDADB /* Supporting Files */,
+			);
+			path = 100marryTests;
+			sourceTree = "<group>";
+		};
+		DBDAC524142F82FF006EDADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC525142F82FF006EDADB /* 100marryTests-Info.plist */,
+				DBDAC526142F82FF006EDADB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDAC4F0142F82FF006EDADB /* 100marry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDAC52F142F82FF006EDADB /* Build configuration list for PBXNativeTarget "100marry" */;
+			buildPhases = (
+				DBDAC4ED142F82FF006EDADB /* Sources */,
+				DBDAC4EE142F82FF006EDADB /* Frameworks */,
+				DBDAC4EF142F82FF006EDADB /* Resources */,
+				DB448E5614DBBF9E005494F0 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 100marry;
+			productName = 100marry;
+			productReference = DBDAC4F1142F82FF006EDADB /* 100marry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBDAC51A142F82FF006EDADB /* 100marryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDAC532142F82FF006EDADB /* Build configuration list for PBXNativeTarget "100marryTests" */;
+			buildPhases = (
+				DBDAC516142F82FF006EDADB /* Sources */,
+				DBDAC517142F82FF006EDADB /* Frameworks */,
+				DBDAC518142F82FF006EDADB /* Resources */,
+				DBDAC519142F82FF006EDADB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBDAC522142F82FF006EDADB /* PBXTargetDependency */,
+			);
+			name = 100marryTests;
+			productName = 100marryTests;
+			productReference = DBDAC51B142F82FF006EDADB /* 100marryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDAC4E8142F82FF006EDADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DBDAC4EB142F82FF006EDADB /* Build configuration list for PBXProject "100marry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBDAC4E6142F82FF006EDADB;
+			productRefGroup = DBDAC4F2142F82FF006EDADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDAC4F0142F82FF006EDADB /* 100marry */,
+				DBDAC51A142F82FF006EDADB /* 100marryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDAC4EF142F82FF006EDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC500142F82FF006EDADB /* InfoPlist.strings in Resources */,
+				DBDAC509142F82FF006EDADB /* MainWindow.xib in Resources */,
+				DBDAC512142F82FF006EDADB /* FirstView.xib in Resources */,
+				DBDAC515142F82FF006EDADB /* SecondView.xib in Resources */,
+				DBE2F90814306F3400751132 /* ThirdView.xib in Resources */,
+				DB82A30C14322243004B0D6A /* View7.xib in Resources */,
+				DB71EAC91436338D0067D179 /* elevator.png in Resources */,
+				DB71EACC143633D10067D179 /* favourite.png in Resources */,
+				DB71EACE143634040067D179 /* idea-alt.png in Resources */,
+				DB71EAD0143634410067D179 /* no.png in Resources */,
+				DB71EAD21436346C0067D179 /* ruby.png in Resources */,
+				DB71EAD4143634750067D179 /* script.png in Resources */,
+				DB71EAD6143634F20067D179 /* calculator.png in Resources */,
+				DB8E809E1439B1BD00EA093A /* Icon.png in Resources */,
+				DB8E80A11439B1C100EA093A /* Icon@2x.png in Resources */,
+				DB507070143AD2FD00DEC4A7 /* MyMoney.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC518142F82FF006EDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC528142F82FF006EDADB /* InfoPlist.strings in Resources */,
+				DBDAC52A142F82FF006EDADB /* _00marryTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB448E5614DBBF9E005494F0 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+		DBDAC519142F82FF006EDADB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDAC4ED142F82FF006EDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC502142F82FF006EDADB /* main.m in Sources */,
+				DBDAC506142F82FF006EDADB /* _00marryAppDelegate.m in Sources */,
+				DBDAC50C142F82FF006EDADB /* FirstViewController.m in Sources */,
+				DBDAC50F142F82FF006EDADB /* SecondViewController.m in Sources */,
+				DB50706F143AD2FD00DEC4A7 /* MyMoney.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC516142F82FF006EDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC52C142F82FF006EDADB /* _00marryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBDAC522142F82FF006EDADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBDAC4F0142F82FF006EDADB /* 100marry */;
+			targetProxy = DBDAC521142F82FF006EDADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBDAC4FE142F82FF006EDADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC4FF142F82FF006EDADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBDAC507142F82FF006EDADB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC508142F82FF006EDADB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC510142F82FF006EDADB /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC511142F82FF006EDADB /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC513142F82FF006EDADB /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC514142F82FF006EDADB /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC526142F82FF006EDADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC527142F82FF006EDADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBDAC52D142F82FF006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				New_Setting = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBDAC52E142F82FF006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				New_Setting = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBDAC530142F82FF006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100marry/100marry-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "100marry/100marry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBDAC531142F82FF006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100marry/100marry-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "100marry/100marry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBDAC533142F82FF006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/100marry.app/100marry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100marry/100marry-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "100marryTests/100marryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DBDAC534142F82FF006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/100marry.app/100marry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100marry/100marry-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "100marryTests/100marryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDAC4EB142F82FF006EDADB /* Build configuration list for PBXProject "100marry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC52D142F82FF006EDADB /* Debug */,
+				DBDAC52E142F82FF006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDAC52F142F82FF006EDADB /* Build configuration list for PBXNativeTarget "100marry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC530142F82FF006EDADB /* Debug */,
+				DBDAC531142F82FF006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDAC532142F82FF006EDADB /* Build configuration list for PBXNativeTarget "100marryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC533142F82FF006EDADB /* Debug */,
+				DBDAC534142F82FF006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBDAC4E8142F82FF006EDADB /* Project object */;
+}
